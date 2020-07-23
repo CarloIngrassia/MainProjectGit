@@ -10,6 +10,8 @@ namespace MainProjectGit
     {
         static void Main(string[] args)
         {
+            DllGit.ClassGit x = new DllGit.ClassGit();
+            x.m_var = 0;
         }
     }
 }
